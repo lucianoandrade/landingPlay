@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168684241-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168684241-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>PlayerStars</title>
+</head>
+<body>
+    <section>
+        <header>
+            <img src="./assets/logo.svg" alt="logo PlayerStars">
+        </header>
+
+        <section class="container-featured"> 
+            <form class="formEmail">
+                <h2>Prepare-se para disputar desafios épicos!</h2>
+                <p>Aqui você cria disputas valendo Stars, onde a vitória e seu lugar no ranking só dependem de você!</p>
+                <p>Quer receber informações antecipadas?</p>
+                <input type="email" placeholder="Insira o seu melhor e-mail" required/>
+                <button class="btnDefault">Quero ser informado(a)</button>
+            </form>
+        </section>
+
+        <section class="container-datails">
+            <h3 class="titleLight">Em breve em suas mãos</h3>
+
+            <div class="details">
+                <div>    
+                    <img src="./assets/espadas.svg" alt="Crie duelos entre jogadores e times">
+                    <p>crie duelos entre jogadores e times</p>
+                </div>
+                <div>   
+                    <img src="./assets/ranking.svg" alt="Suba de nível e torne-se o #1">
+                    <p>Suba de nível e torne-se o #1</p>
+                </div>
+
+                <div>
+                    <img src="./assets/star.svg" alt="Use gold e red stars para disputar prêmios">
+                    <p>Use gold e red stars para disputar prêmios</p>
+                </div>
+
+                <div>
+                    <img src="./assets/trofeu.svg" alt="Crie torneios de jogadores e times">
+                    <p>Crie torneios de jogadores e times</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-desciption">
+            <div>
+                <p>O <strong>PlayerStars</strong> é o lugar onde <strong>duelos épicos</strong> acontecem.</p>
+                <p>Onde o que define o jogo é sua <strong>habilidade de vencer</strong>.</p>       
+                <p>E onde quem conquista o universo dos games <strong>ganha na vida real</strong>.</p>
+            </div>
+        </section>
+
+        <section class="container-ranking">
+            <div>
+            <span>#1</span> <p>Alcance o topo do Ranking e garanta seu lugar em nosso hall de gamers profissionais!</p>
+            </div> 
+        </section>
+
+        <section class="container-games">
+            <h3 class="titleLight">Os melhores jogos para criar seus desafios</h3>
+            <div>
+                <img src="./assets/csgo.png" alt="Cs Go">
+                <img src="./assets/rainbows.png" alt="Rainbows siege">
+                <img src="./assets/fifa.png" alt="Fifa 2020">
+                <img src="./assets/callofduty.png" alt="Call of duty">
+                <img src="./assets/leagueoflegends.png" alt="League of Legends">
+                <div class="marca">
+                    <p>E muito mais!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-participate">
+            <form class="formEmailTwo">
+                <h3 class="titleLight">E aí? animado(a) para participar?</h3>
+                <p>Deixe seu contato com a gente e receba informações fresquinhas sobre essa plataforma incrível!</p>
+                <input type="email" placeholder="Insira o seu melhor e-mail" required/>
+                <button class="btnDefault">Quero ser informado(a)</button>
+            </form>
+        </section>
+
+        <footer>
+            <img src="./assets/logo.svg" class="logo" alt="logo PlayerStars">
+            <p>PlayerStars © 2020 Todos os direitos reservados.</p>
+            <div class="social">
+                <a href="https://www.facebook.com/PlayerstarsOfficial" target="_blank"><img src="./assets/facebook.svg" class="icon-social" alt="logo facebook"></a>
+                <a href="https://www.instagram.com/playerstarsofficial"target="_blank"><img src="./assets/instagram.svg" class="icon-social" alt="logo instagram"></a>
+            </div>
+        </footer>
+    </section>
+    
+    <div class="fundo"></div>
+    <div class="boxModalSucesso">
+        <img class="icon" src="./assets/sucesso.png" alt="icone de sucesso">
+        <p class="titleInfo">E-mail cadastrado com sucesso!</p>
+        <p class="info">Em breve lhe enviaremos novidades sobre o PlayerStars!</p>
+        <button class="btn" onclick="alertClear()" type="button">Ok</button>
+    </div>
+    <div class="boxModalErro">
+        <img class="icon" src="./assets/erro.png" alt="icone de sucesso">
+        <p class="titleInfo">Ocorreu um problema inesperado...</p>
+        <p class="info">Por favor, tente novamente mais tarde.</p>
+        <button class="btn" onclick="alertClear()" type="button">Ok</button>
+    </div>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>

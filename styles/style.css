@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+body {
+  font-family: Montserrat, 'Open Sans', sans-serif;
+}
+
+div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button, input {
+  border: none;
+  outline: none;
+}
+
+p {
+  font-family: 'Montserrat';
+}
+
+.btnDefault {
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+  height: 40px;
+  background-color: #ed1941;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.btnDefault:hover {
+  background-color: #a9001e;
+}
+
+.titleLight {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+section header {
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+
+section header img {
+  width: 250px;
+  height: 121px;
+  padding: 0 10%;
+}
+
+section .container-featured {
+  background-image: url("../assets/destaque1920.png");
+  background-size: 100% 600px;
+  height: 600px;
+  background-color: #232323;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  color: #fff;
+}
+
+section .container-featured form {
+  max-width: 469px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 120px 10% 0;
+}
+
+section .container-featured form h2 {
+  max-width: 469px;
+  min-width: 280px;
+  height: 88px;
+  font-size: 26px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: #fff;
+}
+
+section .container-featured form p {
+  max-width: 328px;
+  min-width: 260px;
+  font-size: 14px;
+  color: #fff;
+}
+
+section .container-featured form input[type="email"] {
+  max-width: 328px;
+  height: 38px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  padding-left: 15px;
+  color: #000;
+}
+
+section .container-featured form ::-webkit-input-placeholder, section .container-featured form input:-moz-placeholder {
+  color: #000;
+}
+
+section .container-featured form .btnDefault {
+  max-width: 343px;
+  margin-top: 20px;
+}
+
+section .container-datails {
+  margin-top: 600px;
+  min-height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container-datails .titleLight {
+  margin: 60px 0;
+  max-width: 359px;
+  padding: 0 60px;
+  height: 41px;
+  text-align: center;
+  color: #000;
+}
+
+section .container-datails .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .container-datails .details div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  max-width: 270px;
+}
+
+section .container-datails .details p {
+  height: 48px;
+  max-width: 260px;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section .container-desciption {
+  background-image: url("../assets/secao1920layer.png");
+  background-repeat: no-repeat;
+  background-size: 100% 508px;
+  height: 508px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .container-desciption div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  max-width: 670px;
+  height: 338px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans';
+  font-size: 28px;
+  line-height: 1.11;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+section .container-ranking {
+  height: 256px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  background-color: #ed1941;
+  color: #fff;
+  font-family: 'Open Sans';
+  color: #fff;
+}
+
+section .container-ranking div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 758px;
+  min-width: 280px;
+  margin: auto;
+}
+
+section .container-ranking div span {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+section .container-ranking div p {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+section .container-games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #111111;
+  min-height: 630px;
+  color: #fff;
+  padding: 0 10%;
+}
+
+section .container-games .titleLight {
+  max-width: 687px;
+}
+
+section .container-games div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+  max-width: 840px;
+}
+
+section .container-games div img {
+  width: 270px;
+  height: 170px;
+  margin: 5px;
+}
+
+section .container-games div .marca {
+  background-image: url("../assets/Marca-PlayerStars.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 170px;
+  margin: 5px;
+}
+
+section .container-games div .marca p {
+  margin: 25%;
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+section .container-participate {
+  min-height: 430px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+section .container-participate form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .container-participate form .titleLight {
+  max-width: 495px;
+  min-width: 260px;
+  color: #000;
+  text-align: center;
+  padding: 0 20px;
+}
+
+section .container-participate form p {
+  max-width: 420px;
+  min-width: 260px;
+  padding: 0 20px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #000;
+  margin: 20px auto;
+}
+
+section .container-participate form input[type="email"] {
+  max-width: 328px;
+  min-width: 265px;
+  height: 38px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  padding-left: 15px;
+  color: #000;
+  margin: 10px auto;
+}
+
+section .container-participate form ::-webkit-input-placeholder, section .container-participate form input:-moz-placeholder {
+  color: #000;
+}
+
+section .container-participate form .btnDefault {
+  max-width: 243px;
+  min-width: 280px;
+  margin: 20px auto 0;
+}
+
+section footer {
+  height: 140px;
+  background-color: #000;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section footer .logo {
+  width: 250px;
+  height: 121px;
+  padding: 0 20px;
+}
+
+section footer p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+section footer .social {
+  position: absolute;
+  right: 30px;
+}
+
+section footer .social .icon-social {
+  margin: 10px 0;
+  width: 44px;
+  height: 44px;
+}
+
+.fundo {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #000;
+  opacity: 0.8;
+  -webkit-animation: fadein 500ms;
+          animation: fadein 500ms;
+  z-index: 20;
+}
+
+.boxModalSucesso, .boxModalErro {
+  display: none;
+  position: fixed;
+  padding: 20px 0;
+  width: 440px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-animation: fadein 500ms;
+          animation: fadein 500ms;
+  text-align: center;
+  text-justify: center;
+  padding: 0 20px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 30;
+}
+
+.boxModalSucesso .icon, .boxModalErro .icon {
+  width: 64px;
+  height: 64px;
+  margin: 30px auto 20px;
+}
+
+.boxModalSucesso .titleInfo, .boxModalErro .titleInfo {
+  max-width: 350px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 0 auto 10px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+
+.boxModalSucesso .info, .boxModalErro .info {
+  max-width: 350px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  margin: 10px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.boxModalSucesso .btn, .boxModalErro .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 30px;
+  max-width: 120px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ed1941;
+  color: #fff;
+  text-transform: uppercase;
+  border: 0;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  section .container-featured {
+    background-image: url("../assets/destaque1280.png");
+  }
+  section .container-desciption {
+    background-image: url("../assets/secao1280layer.png");
+  }
+}
+
+@media screen and (max-width: 771px) {
+  section header {
+    width: 100%;
+    text-align: center;
+  }
+  section header img {
+    width: 100%;
+    height: 130px;
+    padding: 0px;
+  }
+  section .container-featured {
+    background-image: url("../assets/destaque-mobile770.png");
+    background-size: 100%;
+  }
+  section .container-desciption {
+    background-image: url("../assets/secao770layer.png");
+    background-size: 100%;
+  }
+  section .container-participate form input[type="email"] {
+    border: 1px solid #ccc;
+  }
+  section footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  section footer .logo {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    width: 129px;
+    height: 62px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  section .container-featured {
+    background-image: url("../assets/destaque-mobile360.png");
+    background-size: 100%;
+  }
+  section .container-desciption {
+    background-image: url("../assets/secao360layer.png");
+    background-size: 100%;
+  }
+  section .container-ranking {
+    height: 448px;
+    text-align: center;
+  }
+  section .container-ranking div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .container-games {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .boxModalSucesso, .boxModalErro {
+    width: 280px;
+    height: 380px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

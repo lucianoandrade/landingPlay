@@ -1,0 +1,465 @@
+@import 'Base';
+
+section {
+    header {
+        background-color: transparent;
+        position: absolute;
+        top: 0px;
+        z-index: 10;
+
+        img {
+            width: 250px;
+            height: 121px;
+            padding: 0 10%;
+        }
+    }
+
+    .container-featured {
+        background-image: url("../assets/destaque1920.png");
+        background-size: 100% 600px;
+        height: 600px;
+        background-color: $DestaqDarkColor;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        color: $LightColor;
+
+        form {
+            max-width: 469px;
+            display: flex;
+            flex-direction: column;
+            padding: 120px 10% 0;
+
+            h2 {
+                max-width: 469px;
+                min-width: 280px;
+                height: 88px;
+                font-size: 26px;
+                font-family: 'Open Sans';
+                font-weight: $bold;
+                color: $LightColor;
+            }
+            p {
+                max-width: 328px;
+                min-width: 260px;
+                font-size: 14px;
+                color: $LightColor;
+            }
+
+            input[type="email"] {
+                max-width: 328px;
+                height: 38px;
+                box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+                background-color: $LightColor;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                padding-left: 15px;
+                color: $DarkColor;
+            }
+            ::-webkit-input-placeholder, input:-moz-placeholder  { 
+                color:$DarkColor;
+            }
+
+            .btnDefault {
+                max-width: 343px;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .container-datails {
+        margin-top: 600px;
+        min-height: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titleLight {
+            margin: 60px 0;
+            max-width: 359px;
+            padding: 0 60px;
+            height: 41px;
+            text-align: center;
+            color: $DarkColor;
+        }
+
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                margin: 20px auto;
+                max-width: 270px;
+            }
+            p {
+                height: 48px;
+                max-width: 260px;
+                font-size: 20px;
+                color: $DarkColor;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .container-desciption {
+        background-image: url("../assets/secao1920layer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 508px;
+        height: 508px;
+        display: flex;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+            max-width: 670px;
+            height: 338px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: 'Open Sans';
+            font-size: 28px;
+            line-height: 1.11;
+            color: $LightColor;
+            text-align: center;
+            padding: 0 20px;
+        }
+    }
+
+    .container-ranking {
+        height: 256px;
+        display: flex;
+        padding: 0 20px;
+        background-color: $Colorful;
+        color: $LightColor;
+        font-family: 'Open Sans';
+        color: $LightColor;
+
+        div {
+            display: flex;
+            max-width: 758px;
+            min-width: 280px;
+            margin: auto;
+            
+            span {
+                font-size: 90px;
+                font-weight: $bold;     
+            }
+        
+            p {
+                font-size: 28px;
+                font-weight: $light;
+            }
+        }
+    
+    }
+
+    .container-games {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: $DarkColor2;
+        min-height: 630px;
+        color: $LightColor;
+        padding: 0 10%;
+
+        .titleLight {
+            max-width: 687px;
+        }
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+            max-width: 840px;
+            img {
+                width: 270px;
+                height: 170px;
+                margin: 5px;
+            }
+
+            .marca {
+                background-image: url("../assets/Marca-PlayerStars.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 270px;
+                height: 170px;
+                margin: 5px;
+                
+                p {
+                    margin: 25%;
+                    font-family: 'Open Sans';
+                    font-size: 24px;
+                    font-weight: $light;
+                    text-transform: uppercase;              
+                }
+            }
+        }
+    }
+
+    .container-participate {
+        min-height: 430px;
+        background-color: $LightColor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            .titleLight {
+                max-width: 495px;
+                min-width: 260px;
+                color: $DarkColor;
+                text-align: center;
+                padding: 0 20px;
+            }
+            p {
+                max-width: 420px;
+                min-width: 260px;
+                padding: 0 20px;
+                font-family: 'Montserrat';
+                font-size: 14px;
+                color: $DarkColor;
+                margin: 20px auto;
+            }
+
+            input[type="email"] {
+                max-width: 328px;
+                min-width: 265px;
+                height: 38px;
+                box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+                background-color: $LightColor;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                padding-left: 15px;
+                color: $DarkColor;
+                margin: 10px auto;
+            }
+
+            ::-webkit-input-placeholder, input:-moz-placeholder  { 
+                color:$DarkColor;
+            }
+
+            .btnDefault {
+                max-width: 243px;
+                min-width: 280px;
+                margin: 20px auto 0;
+            }
+        }
+    }
+
+    footer {
+        height: 140px;
+        background-color: $DarkColor;
+        color: $LightColor;
+        display: flex;
+        padding: 0 20px;
+        align-items: center;
+
+        .logo {
+            width: 250px;
+            height: 121px;
+            padding: 0 20px;
+        }
+
+        p {
+            font-family: 'Open Sans';
+            font-size: 14px;
+        }
+
+        .social {
+            position: absolute;
+            right: 30px;
+            .icon-social {
+                margin: 10px 0;
+                width: 44px;
+                height: 44px;
+            }
+        }
+    }
+}
+
+//modal
+.fundo {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: $DarkColor;
+    opacity: 0.8;
+    animation: fadein 500ms;
+    z-index: 20;
+}
+
+.boxModalSucesso, .boxModalErro {
+    display: none;
+    position: fixed;
+    padding: 20px 0;
+    width: 440px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    background-color: $LightColor;
+    animation: fadein 500ms;
+    text-align: center;
+    text-justify: center;
+    padding: 0 20px;
+    color: $DarkColor;
+    font-size: 20px;
+    font-weight: $bold;
+    z-index: 30;
+
+    .icon {
+        width: 64px;
+        height: 64px;
+        margin: 30px auto 20px;
+    }
+
+    .titleInfo {
+        max-width: 350px;
+        font-family: 'Open Sans';
+        font-size: 20px;
+        padding: 0 20px;
+        margin: 0 auto 10px;
+        font-weight: $bold;
+        color: $DarkColor;
+        text-align: center;
+    }
+
+    .info {
+        max-width: 350px;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: $light;
+        color: $DarkColor;
+        margin: 10px auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 30px;
+        max-width: 120px;
+        margin: 30px auto;
+        text-align: center;
+        font-size: 16px;
+        font-weight: $bold;
+        background-color: $Colorful;
+        color: $LightColor; 
+        text-transform: uppercase;
+        border: 0;
+      }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
+
+
+
+
+@media screen and (max-width: 1281px){
+    section {
+        .container-featured {
+            background-image: url("../assets/destaque1280.png");
+        }
+        .container-desciption {
+            background-image: url("../assets/secao1280layer.png");
+        }
+    }
+}
+
+@media screen and (max-width: 771px){
+    section {
+        header {
+            width: 100%;
+            text-align: center;
+            img {
+                width: 100%;
+                height: 130px;
+                padding: 0px;
+            }
+        }
+        .container-featured {
+            background-image: url("../assets/destaque-mobile770.png");
+            background-size: 100%;
+        }
+        .container-desciption {
+            background-image: url("../assets/secao770layer.png");
+            background-size: 100%;
+        }
+        .container-participate {
+
+            form {
+                input[type="email"] {
+                    border: 1px solid #ccc;
+                }
+            }
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            .logo {
+                align-self: flex-start;
+                width: 129px;
+                height: 62px;
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 426px){
+    section {
+        .container-featured {
+            background-image: url("../assets/destaque-mobile360.png");
+            background-size: 100%;
+        }
+        .container-desciption {
+            background-image: url("../assets/secao360layer.png");
+            background-size: 100%;
+        }
+        .container-ranking {
+            height: 448px;
+            text-align: center;
+
+            div {
+                flex-direction: column;
+            }
+        }
+
+        .container-games {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .boxModalSucesso, .boxModalErro {
+        width: 280px;
+        height: 380px;
+    }
+}

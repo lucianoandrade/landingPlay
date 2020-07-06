@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+body { 
+    font-family: Montserrat, 'Open Sans', sans-serif;
+}
+
+
+div{
+    box-sizing: border-box;
+}
+
+button, input{
+    border: none;
+    outline: none;
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+
+$DarkColor: #000;
+$DarkColor2: #111111;
+$DestaqDarkColor: #232323;
+$Colorful: #ed1941;
+$TwoColorful: #a9001e;
+$LightColor: #fff;
+
+$light: 300;
+$bold: 600;
+
+.btnDefault {
+    border-radius: 2px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+    height: 40px;
+    background-color: $Colorful;
+    color: $LightColor;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+.btnDefault:hover {
+    background-color: $TwoColorful;
+}
+
+.titleLight {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: $light;
+    text-transform: uppercase;
+}
